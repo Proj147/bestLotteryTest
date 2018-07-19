@@ -1,0 +1,21 @@
+.lottoWidget .tableWrapper .header { background: none; margin: 0; text-align: center; }
+
+.lottoWidget .tableBody .myRow { display: flex; justify-content: center; align-items: center; box-shadow: 0.1px 2px 1px rgba(231, 231, 231, 0.8); background-color: #f3f7fc; margin-bottom: 9px; padding-top: 20px; padding-bottom: 20px; }
+
+.lottoWidget .tableBody .myRow .imgCol img { width: 100%; height: auto; }
+
+.lottoWidget .tableBody .myRow .numbersContainer { display: flex; justify-content: center; align-items: center; padding-left: 0; padding-right: 0; }
+
+.lottoWidget .tableBody .myRow .numbersContainer .winningNumbers .resultBall { border-radius: 50%; width: 26px; height: 26px; background: #fff; border: 2px solid #666; color: #666; text-align: center; display: flex; justify-content: center; align-items: center; float: left; margin-right: 2px; font-size: 13px; color: #3F3F3F; background-color: #fede86; border: solid 2px #fede86; }
+
+.lottoWidget .tableBody .myRow .numbersContainer .winningNumbers .resultBallStrong { border-radius: 50%; width: 26px; height: 26px; background: #fff; border: 2px solid #666; color: #666; text-align: center; display: flex; justify-content: center; align-items: center; float: left; margin-right: 2px; font-size: 13px; color: #FFF; background-color: #e35f64; border: solid 2px #e35f64; }
+
+.lottoWidget .tableBody .myRow .prizeContainer { text-align: center; color: #5596FF; font-size: 24px; font-weight: 900; }
+
+.lottoWidget .tableBody .myRow .winningNumbers{ display: flex }
+
+@media screen and (max-width: 767px) { .lottoWidget .tableBody .myRow { display: block; }
+                                       .lottoWidget .tableBody .myRow .numbersContainer { padding-top: 20px; } 
+                                       .lottoWidget .tableBody .myRow .prizeContainer {    margin-top: 4%;} }
+
+/*# sourceMappingURL=style.css.map */
